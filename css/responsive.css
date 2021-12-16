@@ -1,0 +1,94 @@
+@media (max-width:900px) {
+    /*About-Us*/
+    .about-us .about-us-content {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .img-about-us {
+        width: 50%;
+        height: 300px;
+        margin-bottom: 60px;
+    }
+
+    .content-text {
+        width: 100%;
+    }
+    .content-text .content-text-ind p {
+        text-align: center;
+    }
+    /* Clientes */
+    .content-clients {
+        flex-direction: column;
+    }
+    .individual-client {
+        width: 70%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .individual-client img {
+        margin-right: 20px;
+    }
+    /* Servicios */
+    .service-content {
+        flex-direction: column;
+    }
+    .service-conten-indi {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .service-conten-indi img {
+        width: 60%;
+    }
+    .service-conten-indi p {
+        text-align: center;
+    }
+}
+@media (max-width:640px) {
+    /* Header */
+    nav {
+        justify-content: center;
+    }
+    nav > a {
+        padding: 30px 20px;
+        text-align: center;
+    }
+    .header-text .header-title {
+        font-size: 90px;
+    }
+    .header-text .header-subtitle {
+        font-size: 20px;
+    }
+}
+@media (max-width:562px) {
+    /* Footer */
+    .header-text .header-title {
+        font-size: 80px;
+    }
+}
+@media (max-width:476px) {
+    /* Header */
+    .header-text .header-title {
+        font-size: 80px;
+    }
+}
+@media (max-width:458px) {
+    /* Header */
+    .header-text .header-title {
+        font-size: 68px;
+    }
+    .header-text .header-subtitle {
+        font-size: 16px;
+    }
+}
+@media (max-width: 450px){
+    nav > a { 
+        font-size: 13px;
+    }
+}
+
